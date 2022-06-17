@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon=icon.ico --add-data "icon.ico;." --add-data "libs/forest-dark.tcl;libs" --add-data "libs/forest-dark/*.png;libs/forest-dark/" Main.py
